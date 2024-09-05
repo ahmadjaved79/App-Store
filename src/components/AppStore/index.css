@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  font-family: 'Bree Serif';
+}
+.search-container {
+  display: flex;
+  background-color: transparent;
+  border: 2px solid #7b8794;
+  border-radius: 3px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 6px;
+  font-size: 25px;
+}
+.search-logo {
+  height: 50px;
+  width: 50px;
+}
+.tabItem-container {
+  display: flex;
+  padding: 20px;
+}
+
+.appItem-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
